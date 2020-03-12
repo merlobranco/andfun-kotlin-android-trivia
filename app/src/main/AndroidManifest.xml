@@ -28,6 +28,8 @@
         <activity
             android:name=".MainActivity"
             android:configChanges="orientation|screenSize|smallestScreenSize|screenLayout">
+            <!-- Setting the MainActivity as the default activity -->
+            <!-- Exposing this activity could response to an implicit intent with a certain (action, category, type) -->
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
